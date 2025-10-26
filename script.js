@@ -3,8 +3,8 @@
 
 // Función para actualizar la cuenta regresiva
 function actualizarCuentaRegresiva() {
-    // Fecha objetivo: 4 de julio de 2025 a las 18:00
-    const fechaBoda = new Date('2025-07-04T18:00:00').getTime();
+    // Fecha objetivo: 4 de julio de 2025 a las 18:00 (hora de Madrid)
+    const fechaBoda = new Date('2025-07-04T18:00:00+02:00').getTime();
     
     // Obtener la fecha y hora actual
     const ahora = new Date().getTime();
